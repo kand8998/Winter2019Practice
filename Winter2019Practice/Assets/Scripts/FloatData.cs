@@ -1,18 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
-public class FloatData : MonoBehaviour
+[CreateAssetMenu]
+public class FloatData : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
+    public float value;
+
+    private void UpdateValue(float amount)
     {
-        
+        value += amount;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void UpdateValueLimitZero(float amount)
     {
-        
+        if (value >= 0)
+        {
+            UpdateValue(amount);
+        }
+        else if (Math.Abs(value) < 0)
+        {
+            value = 0;
+        }
+    }
+
+    private void SetAmount(float amount)
+    {
+        value = amount;
     }
 }

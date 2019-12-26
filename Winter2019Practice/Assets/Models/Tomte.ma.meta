@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: deabfb4d6ba894d42a7b1ce0aca3c44a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back
+    100002: Base
+    100004: CupTomte
+    100006: Gift
+    100008: GiftTomte
+    100010: HotChocolate
+    100012: MusicStand
+    100014: Steam
+    100016: //RootNode
+    100018: Tomte
+    400000: back
+    400002: Base
+    400004: CupTomte
+    400006: Gift
+    400008: GiftTomte
+    400010: HotChocolate
+    400012: MusicStand
+    400014: Steam
+    400016: //RootNode
+    400018: Tomte
+    2000000: back
+    2100000: Elf_Shader
+    2100002: StandShader
+    2100004: GiftTomte_Shader1
+    2100006: Extras_shader
+    2100008: CupTomte_Shader
+    2300000: Base
+    2300002: CupTomte
+    2300004: Gift
+    2300006: GiftTomte
+    2300008: HotChocolate
+    2300010: MusicStand
+    2300012: Steam
+    2300014: Tomte
+    3300000: Base
+    3300002: CupTomte
+    3300004: Gift
+    3300006: GiftTomte
+    3300008: HotChocolate
+    3300010: MusicStand
+    3300012: Steam
+    3300014: Tomte
+    4300000: Tomte
+    4300002: Base
+    4300004: GiftTomte
+    4300006: Gift
+    4300008: HotChocolate
+    4300010: CupTomte
+    4300012: Steam
+    4300014: MusicStand
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

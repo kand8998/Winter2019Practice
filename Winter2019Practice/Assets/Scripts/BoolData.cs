@@ -4,18 +4,16 @@ using UnityEngine.Events;
 [CreateAssetMenu]
 public class BoolData : ScriptableObject
 {
-    private bool boolValue;
+    private bool toggle = true;
     public GameAction trueAction;
 
     private void SetBoolTrue()
     {
-        trueAction.action = SetBoolFalse;
-        boolValue = true;
+        trueAction.action += SetBoolFalse;
     }
 
     private void SetBoolFalse()
     {
-        boolValue = false;
         trueAction.Raise();
     }
 }

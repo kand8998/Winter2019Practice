@@ -3,7 +3,7 @@ using UnityEngine.Events;
 
 public class ArrowEvents : MonoBehaviour
 {
-    public UnityEvent upArrowEvent, downArrowEvent, leftArrowEvent, rightArrowEvent;
+    public UnityEvent upArrowEvent, downArrowEvent, leftArrowEvent, rightArrowEvent, returnArrowEvent;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.UpArrow))
@@ -24,6 +24,11 @@ public class ArrowEvents : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             rightArrowEvent.Invoke();
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Return))
+        {
+            returnArrowEvent.Invoke();
         }
     }
 }

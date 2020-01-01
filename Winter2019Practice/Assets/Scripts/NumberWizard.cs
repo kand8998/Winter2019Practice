@@ -1,14 +1,15 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
-public class NumberWizard : MonoBehaviour
+[CreateAssetMenu]
+public class NumberWizard : ScriptableObject
 {
-    //Initial Script Based on a Tutorial
     public GameAction startAction, nextAction;
-    
+
     private int max;
     private int min;
     private int guess;
-    
+
     private void Start()
     {
         startAction.action += StartGame;
@@ -54,4 +55,22 @@ public class NumberWizard : MonoBehaviour
         guess = (max + min) / 2;
         Debug.Log("It is higher or lower than..." + guess);
     }
+
+    private void HighGuess()
+    {
+        min = guess;
+        nextAction.Raise();
+    }
+
+    private void LowGuess()
+    {
+        max = guess;
+        nextAction.Raise();
+    }
+
+    private void CorrectGuess()
+    {
+        startAction.Raise();
+    }
 }
+   
